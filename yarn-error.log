@@ -1,0 +1,64 @@
+Arguments: 
+  C:\dev\nodejs\node.exe C:\Users\Vikram Aruskar\AppData\Roaming\npm\node_modules\@sanity\cli\vendor\yarn install --json --non-interactive --ignore-engines --registry https://registry.npmjs.org
+
+PATH: 
+  C:\dev\github\sanity_gatsby_portfolio\node_modules\.bin;C:\dev\github\node_modules\.bin;C:\dev\node_modules\.bin;C:\node_modules\.bin;C:\dev\nodejs;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Lenovo\FusionEngine;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Common Files\lenovo\easyplussdk\bin;C:\dev\apache-maven-3.0.5\bin;C:\Program Files\MiKTeX 2.9\miktex\bin\x64\;C:\Program Files (x86)\Pandoc\;C:\dev\Git\cmd;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\dev\Git\bin;C:\dev\Git\usr\bin;C:\WINDOWS\System32\OpenSSH\;C:\dev\scala\bin;C:\dev\nodejs\;C:\python\Scripts\;C:\python\;C:\ruby\Ruby23-x64\bin;C:\Users\Vikram Aruskar\AppData\Local\Microsoft\WindowsApps;C:\dev\Git\bin;C:\dev\Git\usr\bin;C:\Users\Vikram Aruskar\AppData\Roaming\npm;C:\dev\Heroku\bin
+
+Yarn version: 
+  1.6.0
+
+Node version: 
+  10.15.2
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.npmjs.org/react-icons/-/react-icons-2.2.7.tgz: ESOCKETTIMEDOUT
+      at ClientRequest.<anonymous> (C:\Users\Vikram Aruskar\AppData\Roaming\npm\node_modules\@sanity\cli\vendor\yarn:133816:19)
+      at Object.onceWrapper (events.js:277:13)
+      at ClientRequest.emit (events.js:189:13)
+      at TLSSocket.emitRequestTimeout (_http_client.js:662:40)
+      at Object.onceWrapper (events.js:277:13)
+      at TLSSocket.emit (events.js:189:13)
+      at TLSSocket.Socket._onTimeout (net.js:443:8)
+      at ontimeout (timers.js:436:11)
+      at tryOnTimeout (timers.js:300:5)
+      at listOnTimeout (timers.js:263:5)
+
+npm manifest: 
+  {
+    "name": "sanitygatsbyportfolio",
+    "private": true,
+    "version": "1.0.0",
+    "description": "",
+    "main": "package.json",
+    "author": "Vikram Aroskar <vikram.aroskar@gmail.com>",
+    "license": "UNLICENSED",
+    "scripts": {
+      "start": "sanity start",
+      "test": "sanity check"
+    },
+    "keywords": [
+      "sanity"
+    ],
+    "dependencies": {
+      "@sanity/base": "^1.149.3",
+      "@sanity/components": "^1.149.3",
+      "@sanity/core": "^1.149.2",
+      "@sanity/default-layout": "^1.149.3",
+      "@sanity/default-login": "^1.149.0",
+      "@sanity/desk-tool": "^1.149.3",
+      "@sanity/vision": "^1.149.0",
+      "prop-types": "^15.6",
+      "react": "^16.2",
+      "react-dom": "^16.2"
+    },
+    "devDependencies": {}
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
