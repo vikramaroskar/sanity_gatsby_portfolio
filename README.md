@@ -26,3 +26,7 @@ Second
 - add/invite people to collaborate on deployed project
 - collborating using real time diff-match-patch text diffing by google
 -
+
+https://manage.sanity.io/projects/4qjv3ycn/usage
+
+https://vikram1.sanity.studio/desk/project
