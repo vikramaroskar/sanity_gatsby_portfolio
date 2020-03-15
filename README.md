@@ -30,3 +30,20 @@ Second
 https://manage.sanity.io/projects/4qjv3ycn/usage
 
 https://vikram1.sanity.studio/desk/project
+
+`sanity graphql deploy`
+
+C:\dev\github\sanity_gatsby_portfolio>sanity graphql deploy
+Dataset: production
+Tag: default
+
+√ Checking for deployed API
+? Do you want to enable a GraphQL playground? Yes
+√ Generating GraphQL schema
+√ Validating GraphQL API
+√ Deploying GraphQL API
+GraphQL API deployed to:
+https://4qjv3ycn.api.sanity.io/v1/graphql/production/default
+
+Use this tag in the https://www.gatsbyjs.org/packages/gatsby-source-sanity/ plugin in frontend gatsby application
+
